@@ -1,15 +1,23 @@
-# Vite + Tailwind CSS Starter
+# Vite + Tailwind CSS 4 + ShadCN Starter (JavaScript)
 
-A ready-to-use starter template with:
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF.svg)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.0-06B6D4.svg)](https://tailwindcss.com/)
 
-- Vite (React JavaScript)
-- Tailwind CSS v4
-- Optimized Vite configuration
-- ShadCn integrated
+A modern, production-ready starter template featuring:
 
-## Getting Started
+- ⚡ **Vite 4** - Blazing fast development
+- 🎨 **Tailwind CSS 4** - Utility-first CSS framework
+- ✨ **ShadCN UI** - Beautiful, accessible components
+- 🛠 **JavaScript** - No TypeScript configuration needed
 
-1. Click "Use this template" on GitHub
-2. Clone your new repo
-3. Run `npm install`
-4. Start developing with `npm run dev`
+## Quick Start
+
+### Using degit (recommended)
+
+```bash
+npx degit stepinfwd/react-vite-tailwind4-shadcn#main my-app
+cd my-app
+npm install
+npm run dev
+```
