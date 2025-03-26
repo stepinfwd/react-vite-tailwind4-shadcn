@@ -26,6 +26,7 @@ export default [
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules, 
       ...reactHooks.configs.recommended.rules,
+      "react/react-in-jsx-scope": "off",
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react-refresh/only-export-components': [
         'warn',
