@@ -10,6 +10,7 @@ A modern, production-ready starter template featuring:
 - 🎨 **Tailwind CSS 4** - Utility-first CSS framework
 - ✨ **ShadCN UI** - Beautiful, accessible components
 - 🛠 **JavaScript** - No TypeScript configuration needed
+- ✅ **Prettier + ESLint** - Code formatting and linting for a clean and consistent codebase
 
 ## Quick Start
 
@@ -21,3 +22,76 @@ cd my-app
 npm install
 npm run dev
 ```
+
+## Folder Structure
+
+```
+my-app/
+├── public/
+├── src/
+│   ├── assets/           # Static assets (images, icons, etc.)
+│   ├── blocks/           # Reusable UI blocks
+│   ├── components/       # UI components
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility libraries
+│   ├── pages/            # Page components
+│   ├── styles/           # Global styles
+│   ├── utils/            # Helper functions
+│   ├── App.jsx           # Root component
+│   ├── main.jsx          # Entry point
+│   ├── App.css           # Global styles
+│   ├── index.css         # Tailwind styles
+├── .gitignore
+├── components.json
+├── eslint.config.js      # ESLint configuration
+├── index.html            # Main HTML file
+├── jsconfig.json         # JS configuration
+├── package.json          # Project dependencies
+├── package-lock.json
+├── README.md             # Project documentation
+├── vite.config.js        # Vite configuration
+```
+
+## Prettier Configuration
+
+This project includes **Prettier** for automatic code formatting. The configuration file (`.prettierrc`) includes:
+
+```json
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}
+```
+
+### What These Settings Do:
+
+- **`singleQuote: true`** → Use single quotes instead of double quotes
+- **`semi: true`** → Add semicolons at the end of statements
+- **`tabWidth: 2`** → Use 2 spaces for indentation
+- **`trailingComma: es5`** → Add trailing commas where valid in ES5 (objects, arrays, etc.)
+
+## Development
+
+### Run the development server:
+
+```bash
+npm run dev
+```
+
+### Build for production:
+
+```bash
+npm run build
+```
+
+### Lint the code:
+
+```bash
+npm run lint
+```
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
